@@ -1,0 +1,6 @@
+administer download_files configuration:
+  title: 'Administer download_files configuration'
+  description: 'Optional description.'
+  restrict access: true
+access download files form:
+  title: Access download files form

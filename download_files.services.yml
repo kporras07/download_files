@@ -1,0 +1,6 @@
+services:
+  download_files.event_subscriber:
+    class: Drupal\download_files\EventSubscriber\FileDownloadedEventSubscriber
+    arguments: ['@logger.factory', '@entity_type.manager']
+    tags:
+      - {name: event_subscriber}

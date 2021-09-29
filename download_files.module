@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Module file for download_files module.
+ */
+
+/**
+ * Implement hook_theme().
+ */
+function download_files_theme() {
+  return [
+    'download_files_block' => [
+      'variables' => [
+        'form' => '',
+        'intro_text' => '',
+      ],
+      'template' => 'download-files-block',
+    ],
+  ];
+}

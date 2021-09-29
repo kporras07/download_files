@@ -1,0 +1,6 @@
+download_files:
+  js:
+    js/script.js: {}
+  dependencies:
+    # This is really not needed, just for future reference.
+    - core/jquery

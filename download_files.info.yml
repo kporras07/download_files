@@ -1,0 +1,7 @@
+name: Download Files
+type: module
+description: Create a form to download files from Drupal
+package: Custom
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:file

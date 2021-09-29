@@ -1,0 +1,5 @@
+download_files.download_files_config:
+  title: Download files config
+  parent: system.admin_config_system
+  route_name: download_files.download_files_config
+  weight: 10
